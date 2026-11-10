@@ -13,4 +13,9 @@ PATH="$PWD/.venv_21/bin:$PATH" RL_WORKERS=4 bash run_decoupled.sh
 
 # Subtask 2.2; completed runs are skipped.
 PATH="$PWD/.venv_22/bin:$PATH" RL_WORKERS=3 bash run.sh
+
+# Reported MuJoCo 3.2.3 final-policy validation (requires the separate checkpoints).
+python3.11 -m venv .venv_validation
+.venv_validation/bin/python -m pip install -r requirements_validation.txt
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 .venv_validation/bin/python evaluate_iql_323.py
 ```

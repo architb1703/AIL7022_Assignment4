@@ -1,0 +1,121 @@
+{
+  "step": 1000000,
+  "summary": {
+    "mean_return": 3475.4537965733552,
+    "episode_std": 387.4973071784765,
+    "n_episodes": 20
+  },
+  "episodes": [
+    {
+      "eval_seed": 20000,
+      "return": 3531.0415533267537,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20001,
+      "return": 3561.438571993379,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20002,
+      "return": 3716.7246256354138,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20003,
+      "return": 3542.811567587909,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20004,
+      "return": 3532.961001989117,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20005,
+      "return": 3575.148131033726,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20006,
+      "return": 3590.512726596429,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20007,
+      "return": 3563.6547303345683,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20008,
+      "return": 3532.4907274550496,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20009,
+      "return": 3533.231156056946,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20010,
+      "return": 3541.8493743554354,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20011,
+      "return": 3577.192795172589,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20012,
+      "return": 3579.263176579347,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20013,
+      "return": 3523.4129812220076,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20014,
+      "return": 3586.374769998506,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20015,
+      "return": 3541.9660572335347,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20016,
+      "return": 3560.8281609400915,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20017,
+      "return": 1838.905154214821,
+      "length": 459
+    },
+    {
+      "eval_seed": 20018,
+      "return": 3554.8011656322556,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20019,
+      "return": 3524.4675041092282,
+      "length": 1000
+    }
+  ],
+  "evaluation_versions": {
+    "mujoco": "3.2.3",
+    "gymnasium": "1.2.3",
+    "numpy": "2.2.5",
+    "torch": "2.7.0",
+    "python": "3.11.17"
+  },
+  "checkpoint": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/Q2/checkpoints/iql_seed4/final.pt",
+  "checkpoint_sha256": "48ed6d04216380a3cc99d50c3ee6b476a0ded73d33b38e42861880151fa1603a",
+  "original_evaluation": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/Q2/results/iql_seed4/final_eval.json",
+  "seconds": 4.74105224997038
+}
