@@ -1,0 +1,7 @@
+reward_mode,seed,success_rate,makespan_success,makespan_all,sum_costs,collisions,normalized_makespan_all
+sparse,0,1.0,25.85,25.85,98.73,0.65,1.615625
+sparse,1,1.0,24.99,24.99,97.72,0.17,1.561875
+sparse,2,1.0,35.24,35.24,117.94,0.07,2.2025
+shaped,0,1.0,23.85,23.85,90.66,0.18,1.490625
+shaped,1,1.0,24.64,24.64,95.45,0.17,1.54
+shaped,2,1.0,25.7,25.7,99.45,0.17,1.60625

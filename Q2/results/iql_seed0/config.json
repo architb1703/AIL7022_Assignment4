@@ -1,0 +1,62 @@
+{
+  "seed": 0,
+  "results_dir": "results/iql_seed0",
+  "checkpoint_dir": "checkpoints/iql_seed0",
+  "data_dir": "data",
+  "total_steps": 1000000,
+  "eval_every": 50000,
+  "batch_size": 128,
+  "hidden_dims": [
+    128,
+    128
+  ],
+  "gamma": 0.99,
+  "expectile": 0.7,
+  "temperature": 3.0,
+  "max_weight": 100.0,
+  "learning_rate": 0.0003,
+  "target_update_rate": 0.005,
+  "resume": false,
+  "dataset": "mujoco/hopper/medium-v0",
+  "learning_curve_eval_seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009
+  ],
+  "final_eval_seeds": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    20016,
+    20017,
+    20018,
+    20019
+  ],
+  "versions": {
+    "torch": "2.7.0",
+    "numpy": "2.2.5",
+    "minari": "0.5.3",
+    "gymnasium": "1.2.3",
+    "mujoco": "3.16.0"
+  }
+}

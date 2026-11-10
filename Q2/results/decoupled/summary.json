@@ -1,0 +1,588 @@
+{
+  "training_seed": 0,
+  "critic_steps": 50000,
+  "policy_steps": 950000,
+  "periodic_episodes": 5,
+  "final_episodes": 20,
+  "evaluation_interval": 100000,
+  "returns": [
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 1065.4334040764163,
+      "episode_std": 30.584178137673632,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 1027.495067537577,
+      "episode_std": 65.38101845676202,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.1,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 1167.5952691304399,
+      "episode_std": 75.5036648520451,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 1139.1864588214933,
+      "episode_std": 54.606112984574146,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 1203.9803913018418,
+      "episode_std": 49.67154848125807,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.5,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 1174.934190850891,
+      "episode_std": 46.43679797703961,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 1240.9720364677826,
+      "episode_std": 37.32714018932923,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 1146.528690805942,
+      "episode_std": 23.34959191433021,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 1.0,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 1280.4083749156896,
+      "episode_std": 40.67120137392628,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 3452.563403781796,
+      "episode_std": 407.44086992075114,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 3240.223875627249,
+      "episode_std": 674.2786405539523,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 3514.7201150857677,
+      "episode_std": 11.146835847681979,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 1376.3995459257922,
+      "episode_std": 255.13220048865037,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 3492.9566771618106,
+      "episode_std": 32.352321202272364,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 3513.7021960231914,
+      "episode_std": 5.353084435011236,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 605.372724543008,
+      "episode_std": 11.686183351180055,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 2638.925144267244,
+      "episode_std": 1027.4038408081267,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 519.5152576920513,
+      "episode_std": 3.7990950689718552,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 2697.8589121360674,
+      "episode_std": 965.1485130286807,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 3527.631068866906,
+      "episode_std": 22.227545236474082,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 3552.9621953859278,
+      "episode_std": 21.33484875552473,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 2852.291063485519,
+      "episode_std": 661.1070277205197,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 1580.6114383491297,
+      "episode_std": 713.2715107707876,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 3532.1907677908903,
+      "episode_std": 24.951609101967392,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 3208.6625371278196,
+      "episode_std": 652.9583636058222,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 3358.5844572376436,
+      "episode_std": 528.7647607022949,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 3240.758752704952,
+      "episode_std": 688.3471028338068,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 6.0,
+      "episode_std": 25.23364504199231,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.1,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 6.75,
+      "episode_std": 30.18691769624716,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 0.5,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_fraction": 1.0,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 179.35,
+      "episode_std": 1.6944180805158293,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 1.2,
+      "episode_std": 5.366563145999495,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 174.4,
+      "episode_std": 83.91624897542349,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 29.45,
+      "episode_std": 14.883671731482334,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 5.6,
+      "episode_std": 14.748416507330004,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 158.9,
+      "episode_std": 203.9976522052721,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.1,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 70.0,
+      "episode_std": 63.3611204047669,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 18.6,
+      "episode_std": 59.002586919201214,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 0.5,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 27.85,
+      "episode_std": 72.9327556184823,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.1,
+      "seed": 0,
+      "mean_return": 17.7,
+      "episode_std": 43.274035000946675,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 0.5,
+      "seed": 0,
+      "mean_return": 40.4,
+      "episode_std": 124.36381264152703,
+      "n_episodes": 20
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_fraction": 1.0,
+      "policy_fraction": 1.0,
+      "seed": 0,
+      "mean_return": 41.85,
+      "episode_std": 128.81168425263292,
+      "n_episodes": 20
+    }
+  ],
+  "gains": [
+    {
+      "dataset": "hopper",
+      "algorithm": "TD3+BC",
+      "critic_gain": 135.79512048166035,
+      "policy_gain": 59.11531184377608
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "IQL+AWR",
+      "critic_gain": -2147.8980893308367,
+      "policy_gain": 704.5339648501381
+    },
+    {
+      "dataset": "hopper",
+      "algorithm": "CQL+AWR",
+      "critic_gain": 9.851190227171324,
+      "policy_gain": 522.3664010441213
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "TD3+BC",
+      "critic_gain": -2.0,
+      "policy_gain": 0.0
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "IQL+AWR",
+      "critic_gain": -63.48333333333333,
+      "policy_gain": 51.31666666666667
+    },
+    {
+      "dataset": "kitchen",
+      "algorithm": "CQL+AWR",
+      "critic_gain": 9.983333333333333,
+      "policy_gain": 40.666666666666664
+    }
+  ]
+}

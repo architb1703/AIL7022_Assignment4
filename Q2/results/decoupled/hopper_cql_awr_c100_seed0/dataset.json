@@ -1,0 +1,34 @@
+{
+  "dataset": "mujoco/hopper/medium-v0",
+  "transitions": 999404,
+  "episodes": 1327,
+  "shapes": {
+    "obs": [
+      999404,
+      11
+    ],
+    "actions": [
+      999404,
+      3
+    ],
+    "rewards": [
+      999404
+    ],
+    "next_obs": [
+      999404,
+      11
+    ],
+    "terminals": [
+      999404
+    ]
+  },
+  "terminations": 641,
+  "truncations": 686,
+  "observation_encoding": "vector",
+  "observation_normalization": false,
+  "reward_scale": 1.0,
+  "critic_transitions": 999404,
+  "subset_manifest": "results/decoupled/manifests/hopper_seed0.npz",
+  "critic_indices_sha256": "d2ae35e4498215742ab4bfd80ab347962b1969cc38d00cbb90e28e9d1923ed8b",
+  "subset_rule": "nested random transitions; separate critic/policy permutations"
+}

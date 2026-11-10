@@ -1,0 +1,35 @@
+{
+  "step": 900000,
+  "summary": {
+    "mean_return": 1196.7761458181897,
+    "episode_std": 22.61845871392721,
+    "n_episodes": 5
+  },
+  "episodes": [
+    {
+      "eval_seed": 10000,
+      "return": 1206.6652659488022,
+      "length": 317
+    },
+    {
+      "eval_seed": 10001,
+      "return": 1203.2804089583753,
+      "length": 316
+    },
+    {
+      "eval_seed": 10002,
+      "return": 1204.9716016527275,
+      "length": 316
+    },
+    {
+      "eval_seed": 10003,
+      "return": 1212.201823323524,
+      "length": 317
+    },
+    {
+      "eval_seed": 10004,
+      "return": 1156.7616292075193,
+      "length": 306
+    }
+  ]
+}

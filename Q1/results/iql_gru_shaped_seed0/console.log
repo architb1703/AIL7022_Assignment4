@@ -1,0 +1,41 @@
+Matplotlib is building the font cache; this may take a moment.
+step=50000 episodes=625 epsilon=0.050 success=0.000 makespan=80.00
+step=100000 episodes=1250 epsilon=0.050 success=0.000 makespan=80.00
+step=150000 episodes=1875 epsilon=0.050 success=0.000 makespan=80.00
+step=200000 episodes=2539 epsilon=0.050 success=0.000 makespan=80.00
+step=250000 episodes=3224 epsilon=0.050 success=0.220 makespan=73.64
+step=300000 episodes=4004 epsilon=0.050 success=0.860 makespan=42.38
+step=350000 episodes=5307 epsilon=0.050 success=1.000 makespan=34.22
+step=400000 episodes=6673 epsilon=0.050 success=1.000 makespan=33.16
+step=450000 episodes=7997 epsilon=0.050 success=0.960 makespan=35.44
+step=500000 episodes=9416 epsilon=0.050 success=1.000 makespan=32.22
+step=550000 episodes=10860 epsilon=0.050 success=1.000 makespan=31.24
+step=600000 episodes=12280 epsilon=0.050 success=1.000 makespan=35.90
+step=650000 episodes=13743 epsilon=0.050 success=1.000 makespan=27.28
+step=700000 episodes=15322 epsilon=0.050 success=1.000 makespan=27.36
+step=750000 episodes=16989 epsilon=0.050 success=1.000 makespan=25.90
+step=800000 episodes=18703 epsilon=0.050 success=1.000 makespan=26.18
+step=850000 episodes=20442 epsilon=0.050 success=1.000 makespan=25.34
+step=900000 episodes=22196 epsilon=0.050 success=1.000 makespan=24.38
+step=950000 episodes=24024 epsilon=0.050 success=1.000 makespan=24.72
+step=1000000 episodes=25863 epsilon=0.050 success=1.000 makespan=25.20
+Validation evaluation:
+{
+  "n_episodes": 50,
+  "success_rate": 1.0,
+  "makespan_success": 24.22,
+  "makespan_all": 24.22,
+  "sum_costs": 92.48,
+  "collisions": 0.2,
+  "normalized_makespan_all": 1.51375
+}
+Final evaluation:
+{
+  "n_episodes": 100,
+  "success_rate": 1.0,
+  "makespan_success": 24.59,
+  "makespan_all": 24.59,
+  "sum_costs": 94.53,
+  "collisions": 0.34,
+  "normalized_makespan_all": 1.536875
+}

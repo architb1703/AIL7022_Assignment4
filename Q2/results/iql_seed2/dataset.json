@@ -1,0 +1,31 @@
+{
+  "dataset": "mujoco/hopper/medium-v0",
+  "transitions": 999404,
+  "episodes": 1327,
+  "shapes": {
+    "obs": [
+      999404,
+      11
+    ],
+    "actions": [
+      999404,
+      3
+    ],
+    "rewards": [
+      999404
+    ],
+    "next_obs": [
+      999404,
+      11
+    ],
+    "terminals": [
+      999404
+    ]
+  },
+  "terminations": 641,
+  "truncations": 686,
+  "episode_return_min": 1350.3360739190998,
+  "episode_return_max": 3908.854598719914,
+  "reward_scale": 0.3908511860698183,
+  "observation_normalization": false
+}

@@ -1,0 +1,814 @@
+{
+  "step": 350000,
+  "summary": {
+    "n_episodes": 50,
+    "success_rate": 0.8,
+    "makespan_success": 38.225,
+    "makespan_all": 46.58,
+    "sum_costs": 166.52,
+    "collisions": 2.66,
+    "normalized_makespan_all": 2.91125
+  },
+  "episodes": [
+    {
+      "eval_seed": 10000,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        36,
+        36,
+        28,
+        26,
+        34
+      ],
+      "makespan": 36,
+      "sum_costs": 160,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10001,
+      "success": true,
+      "episode_length": 44,
+      "finish_steps": [
+        44,
+        38,
+        28,
+        27,
+        35
+      ],
+      "makespan": 44,
+      "sum_costs": 172,
+      "collisions": 0,
+      "normalized_makespan": 2.75
+    },
+    {
+      "eval_seed": 10002,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        39,
+        42,
+        16,
+        -1,
+        43
+      ],
+      "makespan": 80,
+      "sum_costs": 220,
+      "collisions": 12,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10003,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        37,
+        38,
+        27,
+        27,
+        35
+      ],
+      "makespan": 38,
+      "sum_costs": 164,
+      "collisions": 0,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10004,
+      "success": true,
+      "episode_length": 37,
+      "finish_steps": [
+        37,
+        37,
+        29,
+        26,
+        35
+      ],
+      "makespan": 37,
+      "sum_costs": 164,
+      "collisions": 2,
+      "normalized_makespan": 2.3125
+    },
+    {
+      "eval_seed": 10005,
+      "success": true,
+      "episode_length": 39,
+      "finish_steps": [
+        38,
+        39,
+        27,
+        36,
+        35
+      ],
+      "makespan": 39,
+      "sum_costs": 175,
+      "collisions": 2,
+      "normalized_makespan": 2.4375
+    },
+    {
+      "eval_seed": 10006,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        31,
+        28,
+        13,
+        -1,
+        29
+      ],
+      "makespan": 80,
+      "sum_costs": 181,
+      "collisions": 0,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10007,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        38,
+        37,
+        28,
+        26,
+        34
+      ],
+      "makespan": 38,
+      "sum_costs": 163,
+      "collisions": 0,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10008,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        29,
+        28,
+        17,
+        36,
+        24
+      ],
+      "makespan": 36,
+      "sum_costs": 134,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10009,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        30,
+        30,
+        17,
+        -1,
+        28
+      ],
+      "makespan": 80,
+      "sum_costs": 185,
+      "collisions": 4,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10010,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        30,
+        31,
+        18,
+        -1,
+        29
+      ],
+      "makespan": 80,
+      "sum_costs": 188,
+      "collisions": 4,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10011,
+      "success": true,
+      "episode_length": 39,
+      "finish_steps": [
+        39,
+        37,
+        28,
+        26,
+        35
+      ],
+      "makespan": 39,
+      "sum_costs": 165,
+      "collisions": 2,
+      "normalized_makespan": 2.4375
+    },
+    {
+      "eval_seed": 10012,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        38,
+        38,
+        28,
+        36,
+        35
+      ],
+      "makespan": 38,
+      "sum_costs": 175,
+      "collisions": 0,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10013,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        28,
+        29,
+        16,
+        36,
+        25
+      ],
+      "makespan": 36,
+      "sum_costs": 134,
+      "collisions": 2,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10014,
+      "success": true,
+      "episode_length": 39,
+      "finish_steps": [
+        39,
+        37,
+        27,
+        26,
+        34
+      ],
+      "makespan": 39,
+      "sum_costs": 163,
+      "collisions": 1,
+      "normalized_makespan": 2.4375
+    },
+    {
+      "eval_seed": 10015,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        33,
+        29,
+        17,
+        36,
+        24
+      ],
+      "makespan": 36,
+      "sum_costs": 139,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10016,
+      "success": true,
+      "episode_length": 40,
+      "finish_steps": [
+        38,
+        40,
+        27,
+        29,
+        36
+      ],
+      "makespan": 40,
+      "sum_costs": 170,
+      "collisions": 0,
+      "normalized_makespan": 2.5
+    },
+    {
+      "eval_seed": 10017,
+      "success": true,
+      "episode_length": 37,
+      "finish_steps": [
+        37,
+        37,
+        27,
+        36,
+        35
+      ],
+      "makespan": 37,
+      "sum_costs": 172,
+      "collisions": 2,
+      "normalized_makespan": 2.3125
+    },
+    {
+      "eval_seed": 10018,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        28,
+        28,
+        13,
+        -1,
+        28
+      ],
+      "makespan": 80,
+      "sum_costs": 177,
+      "collisions": 0,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10019,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        29,
+        27,
+        17,
+        36,
+        26
+      ],
+      "makespan": 36,
+      "sum_costs": 135,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10020,
+      "success": true,
+      "episode_length": 41,
+      "finish_steps": [
+        41,
+        40,
+        27,
+        28,
+        35
+      ],
+      "makespan": 41,
+      "sum_costs": 171,
+      "collisions": 2,
+      "normalized_makespan": 2.5625
+    },
+    {
+      "eval_seed": 10021,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        38,
+        38,
+        29,
+        28,
+        37
+      ],
+      "makespan": 38,
+      "sum_costs": 170,
+      "collisions": 0,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10022,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        36,
+        36,
+        27,
+        26,
+        35
+      ],
+      "makespan": 36,
+      "sum_costs": 160,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10023,
+      "success": true,
+      "episode_length": 41,
+      "finish_steps": [
+        40,
+        41,
+        32,
+        29,
+        40
+      ],
+      "makespan": 41,
+      "sum_costs": 182,
+      "collisions": 0,
+      "normalized_makespan": 2.5625
+    },
+    {
+      "eval_seed": 10024,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        38,
+        38,
+        28,
+        26,
+        37
+      ],
+      "makespan": 38,
+      "sum_costs": 167,
+      "collisions": 0,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10025,
+      "success": true,
+      "episode_length": 40,
+      "finish_steps": [
+        40,
+        38,
+        27,
+        27,
+        37
+      ],
+      "makespan": 40,
+      "sum_costs": 169,
+      "collisions": 0,
+      "normalized_makespan": 2.5
+    },
+    {
+      "eval_seed": 10026,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        27,
+        27,
+        14,
+        36,
+        24
+      ],
+      "makespan": 36,
+      "sum_costs": 128,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10027,
+      "success": true,
+      "episode_length": 39,
+      "finish_steps": [
+        38,
+        39,
+        28,
+        26,
+        37
+      ],
+      "makespan": 39,
+      "sum_costs": 168,
+      "collisions": 0,
+      "normalized_makespan": 2.4375
+    },
+    {
+      "eval_seed": 10028,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        27,
+        31,
+        14,
+        -1,
+        28
+      ],
+      "makespan": 80,
+      "sum_costs": 180,
+      "collisions": 0,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10029,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        26,
+        27,
+        14,
+        36,
+        23
+      ],
+      "makespan": 36,
+      "sum_costs": 126,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10030,
+      "success": true,
+      "episode_length": 56,
+      "finish_steps": [
+        48,
+        53,
+        12,
+        56,
+        51
+      ],
+      "makespan": 56,
+      "sum_costs": 220,
+      "collisions": 24,
+      "normalized_makespan": 3.5
+    },
+    {
+      "eval_seed": 10031,
+      "success": true,
+      "episode_length": 32,
+      "finish_steps": [
+        32,
+        29,
+        17,
+        26,
+        28
+      ],
+      "makespan": 32,
+      "sum_costs": 132,
+      "collisions": 4,
+      "normalized_makespan": 2.0
+    },
+    {
+      "eval_seed": 10032,
+      "success": true,
+      "episode_length": 37,
+      "finish_steps": [
+        37,
+        37,
+        28,
+        36,
+        36
+      ],
+      "makespan": 37,
+      "sum_costs": 174,
+      "collisions": 4,
+      "normalized_makespan": 2.3125
+    },
+    {
+      "eval_seed": 10033,
+      "success": true,
+      "episode_length": 37,
+      "finish_steps": [
+        37,
+        37,
+        28,
+        26,
+        36
+      ],
+      "makespan": 37,
+      "sum_costs": 164,
+      "collisions": 0,
+      "normalized_makespan": 2.3125
+    },
+    {
+      "eval_seed": 10034,
+      "success": true,
+      "episode_length": 40,
+      "finish_steps": [
+        37,
+        40,
+        30,
+        29,
+        38
+      ],
+      "makespan": 40,
+      "sum_costs": 174,
+      "collisions": 0,
+      "normalized_makespan": 2.5
+    },
+    {
+      "eval_seed": 10035,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        28,
+        27,
+        15,
+        36,
+        25
+      ],
+      "makespan": 36,
+      "sum_costs": 131,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10036,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        28,
+        27,
+        12,
+        -1,
+        24
+      ],
+      "makespan": 80,
+      "sum_costs": 171,
+      "collisions": 0,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10037,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        37,
+        38,
+        28,
+        27,
+        35
+      ],
+      "makespan": 38,
+      "sum_costs": 165,
+      "collisions": 0,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10038,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        38,
+        38,
+        28,
+        26,
+        35
+      ],
+      "makespan": 38,
+      "sum_costs": 165,
+      "collisions": 0,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10039,
+      "success": true,
+      "episode_length": 38,
+      "finish_steps": [
+        38,
+        38,
+        29,
+        36,
+        36
+      ],
+      "makespan": 38,
+      "sum_costs": 177,
+      "collisions": 2,
+      "normalized_makespan": 2.375
+    },
+    {
+      "eval_seed": 10040,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        36,
+        26,
+        15,
+        36,
+        25
+      ],
+      "makespan": 36,
+      "sum_costs": 138,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10041,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        35,
+        32,
+        14,
+        36,
+        25
+      ],
+      "makespan": 36,
+      "sum_costs": 142,
+      "collisions": 2,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10042,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        29,
+        32,
+        13,
+        -1,
+        30
+      ],
+      "makespan": 80,
+      "sum_costs": 184,
+      "collisions": 0,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10043,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        26,
+        26,
+        14,
+        36,
+        24
+      ],
+      "makespan": 36,
+      "sum_costs": 126,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10044,
+      "success": true,
+      "episode_length": 41,
+      "finish_steps": [
+        39,
+        41,
+        27,
+        36,
+        39
+      ],
+      "makespan": 41,
+      "sum_costs": 182,
+      "collisions": 2,
+      "normalized_makespan": 2.5625
+    },
+    {
+      "eval_seed": 10045,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        30,
+        28,
+        16,
+        36,
+        27
+      ],
+      "makespan": 36,
+      "sum_costs": 137,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    },
+    {
+      "eval_seed": 10046,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        27,
+        30,
+        16,
+        -1,
+        27
+      ],
+      "makespan": 80,
+      "sum_costs": 180,
+      "collisions": 4,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10047,
+      "success": true,
+      "episode_length": 42,
+      "finish_steps": [
+        42,
+        36,
+        27,
+        27,
+        35
+      ],
+      "makespan": 42,
+      "sum_costs": 167,
+      "collisions": 0,
+      "normalized_makespan": 2.625
+    },
+    {
+      "eval_seed": 10048,
+      "success": false,
+      "episode_length": 80,
+      "finish_steps": [
+        65,
+        70,
+        16,
+        -1,
+        -1
+      ],
+      "makespan": 80,
+      "sum_costs": 311,
+      "collisions": 58,
+      "normalized_makespan": 5.0
+    },
+    {
+      "eval_seed": 10049,
+      "success": true,
+      "episode_length": 36,
+      "finish_steps": [
+        27,
+        28,
+        14,
+        36,
+        24
+      ],
+      "makespan": 36,
+      "sum_costs": 129,
+      "collisions": 0,
+      "normalized_makespan": 2.25
+    }
+  ]
+}

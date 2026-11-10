@@ -1,0 +1,3382 @@
+{
+  "algorithm": "qmix",
+  "reward_mode": "sparse",
+  "checkpoint": "final",
+  "slip_prob": 0.1,
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "evaluation_seeds": [
+    10000,
+    10099
+  ],
+  "episodes": 300,
+  "category_priority": [
+    "goal_blocking",
+    "deadlock",
+    "livelock",
+    "timeout"
+  ],
+  "all_rollouts_match_saved_metrics": true,
+  "failure_categories": {
+    "livelock": 216,
+    "deadlock": 83,
+    "goal_blocking": 1
+  },
+  "runs": [
+    {
+      "training_seed": 0,
+      "episodes": 100,
+      "failure_categories": {
+        "livelock": 98,
+        "deadlock": 2
+      },
+      "agent_finish_rates": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "classified_failures": [
+        {
+          "eval_seed": 10000,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10001,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            23,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10002,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10003,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            13,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10004,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10005,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            23,
+            13,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10006,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10007,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10008,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10009,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            18,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10010,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10011,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10012,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            25,
+            13,
+            14
+          ]
+        },
+        {
+          "eval_seed": 10013,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            23,
+            11,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10014,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10015,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10016,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10017,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            12,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10018,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            15,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10019,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10020,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10021,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10022,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10023,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10024,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            14,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10025,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10026,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10027,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            24,
+            11,
+            15
+          ]
+        },
+        {
+          "eval_seed": 10028,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            14,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10029,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            12,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10030,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            18,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10031,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10032,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            12,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10033,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            16,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10034,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10035,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10036,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            18,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10037,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            23,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10038,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10039,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            13,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10040,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10041,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10042,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            13,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10043,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10044,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10045,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10046,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            18,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10047,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10048,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            18,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10049,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10050,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            12,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10051,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10052,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10053,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10054,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10055,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            18,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10056,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            14,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10057,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            12,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10058,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10059,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10060,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10061,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10062,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10063,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10064,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10065,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10066,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10067,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10068,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10069,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10070,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10071,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10072,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10073,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10074,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10075,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10076,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            18,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10077,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10078,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10079,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10080,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10081,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10082,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            23,
+            10,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10083,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            10,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10084,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            14,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10085,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10086,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            22,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10087,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            15,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10088,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10089,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10090,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            23,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10091,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            24,
+            13,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10092,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            24,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10093,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10094,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            20,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10095,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            19,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10096,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10097,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            15,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10098,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10099,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            21,
+            12,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "training_seed": 1,
+      "episodes": 100,
+      "failure_categories": {
+        "livelock": 44,
+        "deadlock": 56
+      },
+      "agent_finish_rates": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "classified_failures": [
+        {
+          "eval_seed": 10000,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10001,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10002,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10003,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10004,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10005,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            16,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10006,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            11,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10007,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            10,
+            22
+          ]
+        },
+        {
+          "eval_seed": 10008,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10009,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            11,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10010,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            11,
+            23
+          ]
+        },
+        {
+          "eval_seed": 10011,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10012,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            14,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10013,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10014,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10015,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10016,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            14,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10017,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            13,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10018,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            14,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10019,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10020,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10021,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            10,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10022,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            11,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10023,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10024,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10025,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            16,
+            13,
+            24
+          ]
+        },
+        {
+          "eval_seed": 10026,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            14,
+            23
+          ]
+        },
+        {
+          "eval_seed": 10027,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            11,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10028,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10029,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10030,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10031,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            13,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10032,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            12,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10033,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10034,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            11,
+            22
+          ]
+        },
+        {
+          "eval_seed": 10035,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10036,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            14,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10037,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            11,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10038,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10039,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10040,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            11,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10041,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            10,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10042,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            13,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10043,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            10,
+            22
+          ]
+        },
+        {
+          "eval_seed": 10044,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10045,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            11,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10046,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10047,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10048,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10049,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10050,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            11,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10051,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            13,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10052,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            12,
+            23
+          ]
+        },
+        {
+          "eval_seed": 10053,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            13,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10054,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            12,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10055,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10056,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10057,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10058,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            11,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10059,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            12,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10060,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10061,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            11,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10062,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            11,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10063,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10064,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            15,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10065,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            10,
+            23
+          ]
+        },
+        {
+          "eval_seed": 10066,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10067,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10068,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10069,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            12,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10070,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            14,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10071,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            15,
+            13,
+            22
+          ]
+        },
+        {
+          "eval_seed": 10072,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            12,
+            22
+          ]
+        },
+        {
+          "eval_seed": 10073,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10074,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10075,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10076,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            13,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10077,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10078,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            13,
+            14,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10079,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10080,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10081,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            11,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10082,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            12,
+            21
+          ]
+        },
+        {
+          "eval_seed": 10083,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            14,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10084,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            11,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10085,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            15,
+            16,
+            22
+          ]
+        },
+        {
+          "eval_seed": 10086,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            13,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10087,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            14,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10088,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10089,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            15,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10090,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10091,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            13,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10092,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            14,
+            11,
+            24
+          ]
+        },
+        {
+          "eval_seed": 10093,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10094,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            12,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10095,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            12,
+            15,
+            20
+          ]
+        },
+        {
+          "eval_seed": 10096,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            12,
+            17
+          ]
+        },
+        {
+          "eval_seed": 10097,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            10,
+            15,
+            18
+          ]
+        },
+        {
+          "eval_seed": 10098,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            10,
+            19
+          ]
+        },
+        {
+          "eval_seed": 10099,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            11,
+            12,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "training_seed": 2,
+      "episodes": 100,
+      "failure_categories": {
+        "livelock": 74,
+        "deadlock": 25,
+        "goal_blocking": 1
+      },
+      "agent_finish_rates": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "classified_failures": [
+        {
+          "eval_seed": 10000,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10001,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10002,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10003,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10004,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10005,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            15
+          ]
+        },
+        {
+          "eval_seed": 10006,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10007,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10008,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10009,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10010,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10011,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10012,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            16
+          ]
+        },
+        {
+          "eval_seed": 10013,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            15
+          ]
+        },
+        {
+          "eval_seed": 10014,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10015,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10016,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10017,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10018,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            15,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10019,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10020,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10021,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10022,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10023,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10024,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10025,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10026,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10027,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            15
+          ]
+        },
+        {
+          "eval_seed": 10028,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            14,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10029,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10030,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10031,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10032,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10033,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            14,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10034,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10035,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10036,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10037,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10038,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10039,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10040,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10041,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10042,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10043,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10044,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10045,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10046,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10047,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10048,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10049,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10050,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10051,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10052,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10053,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10054,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10055,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10056,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            14,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10057,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10058,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10059,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10060,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10061,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            14
+          ]
+        },
+        {
+          "eval_seed": 10062,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10063,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10064,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10065,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10066,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10067,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10068,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10069,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10070,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10071,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10072,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10073,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10074,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10075,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10076,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10077,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10078,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10079,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10080,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10081,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10082,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10083,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            11
+          ]
+        },
+        {
+          "eval_seed": 10084,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            15,
+            10
+          ]
+        },
+        {
+          "eval_seed": 10085,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10086,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            14,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10087,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            17,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10088,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10089,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10090,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10091,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            13,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10092,
+          "category": "goal_blocking",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10093,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10094,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10095,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            9
+          ]
+        },
+        {
+          "eval_seed": 10096,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            11,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10097,
+          "category": "deadlock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            15,
+            13
+          ]
+        },
+        {
+          "eval_seed": 10098,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            10,
+            12
+          ]
+        },
+        {
+          "eval_seed": 10099,
+          "category": "livelock",
+          "finish_steps": [
+            -1,
+            -1,
+            -1,
+            12,
+            10
+          ]
+        }
+      ]
+    }
+  ]
+}

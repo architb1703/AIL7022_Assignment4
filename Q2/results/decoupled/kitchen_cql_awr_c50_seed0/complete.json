@@ -1,0 +1,23 @@
+{
+  "critic_digest": "64b26c37c24cec02e4d8d9ac5e6515006d04b6a31799beb683a49db8c4352633",
+  "critics_frozen": true,
+  "critic_steps": 50000,
+  "total_steps_per_policy": 1000000,
+  "policies": {
+    "p10": {
+      "mean_return": 0.0,
+      "episode_std": 0.0,
+      "n_episodes": 20
+    },
+    "p50": {
+      "mean_return": 18.6,
+      "episode_std": 59.002586919201214,
+      "n_episodes": 20
+    },
+    "p100": {
+      "mean_return": 27.85,
+      "episode_std": 72.9327556184823,
+      "n_episodes": 20
+    }
+  }
+}

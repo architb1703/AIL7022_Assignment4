@@ -1,0 +1,37 @@
+{
+  "n_seeds": 5,
+  "mean_return": 3510.758150342882,
+  "seed_std": 75.16747611108099,
+  "per_seed": [
+    {
+      "seed": 0,
+      "mean_return": 3381.9859652295986,
+      "episode_std": 520.9788772078547,
+      "n_episodes": 20
+    },
+    {
+      "seed": 1,
+      "mean_return": 3530.893698112917,
+      "episode_std": 380.24579034230845,
+      "n_episodes": 20
+    },
+    {
+      "seed": 2,
+      "mean_return": 3566.033275178322,
+      "episode_std": 17.2703126296729,
+      "n_episodes": 20
+    },
+    {
+      "seed": 3,
+      "mean_return": 3513.6290663762275,
+      "episode_std": 419.6062926785355,
+      "n_episodes": 20
+    },
+    {
+      "seed": 4,
+      "mean_return": 3561.248746817341,
+      "episode_std": 24.442657510742244,
+      "n_episodes": 20
+    }
+  ]
+}

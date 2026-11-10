@@ -1,0 +1,40 @@
+step=50000 episodes=625 epsilon=0.050 success=0.000 makespan=80.00
+step=100000 episodes=1250 epsilon=0.050 success=0.000 makespan=80.00
+step=150000 episodes=1875 epsilon=0.050 success=0.000 makespan=80.00
+step=200000 episodes=2500 epsilon=0.050 success=0.000 makespan=80.00
+step=250000 episodes=3125 epsilon=0.050 success=0.000 makespan=80.00
+step=300000 episodes=3750 epsilon=0.050 success=0.000 makespan=80.00
+step=350000 episodes=4375 epsilon=0.050 success=0.000 makespan=80.00
+step=400000 episodes=5000 epsilon=0.050 success=0.000 makespan=80.00
+step=450000 episodes=5625 epsilon=0.050 success=0.000 makespan=80.00
+step=500000 episodes=6250 epsilon=0.050 success=0.040 makespan=79.04
+step=550000 episodes=6878 epsilon=0.050 success=0.000 makespan=80.00
+step=600000 episodes=7503 epsilon=0.050 success=0.000 makespan=80.00
+step=650000 episodes=8128 epsilon=0.050 success=0.000 makespan=80.00
+step=700000 episodes=8754 epsilon=0.050 success=0.000 makespan=80.00
+step=750000 episodes=9393 epsilon=0.050 success=0.100 makespan=76.36
+step=800000 episodes=10372 epsilon=0.050 success=1.000 makespan=34.82
+step=850000 episodes=11718 epsilon=0.050 success=0.980 makespan=33.54
+step=900000 episodes=13139 epsilon=0.050 success=1.000 makespan=32.86
+step=950000 episodes=14531 epsilon=0.050 success=1.000 makespan=30.56
+step=1000000 episodes=15987 epsilon=0.050 success=1.000 makespan=31.32
+Validation evaluation:
+{
+  "n_episodes": 50,
+  "success_rate": 1.0,
+  "makespan_success": 31.26,
+  "makespan_all": 31.26,
+  "sum_costs": 101.22,
+  "collisions": 0.2,
+  "normalized_makespan_all": 1.95375
+}
+Final evaluation:
+{
+  "n_episodes": 100,
+  "success_rate": 1.0,
+  "makespan_success": 31.16,
+  "makespan_all": 31.16,
+  "sum_costs": 101.02,
+  "collisions": 0.2,
+  "normalized_makespan_all": 1.9475
+}

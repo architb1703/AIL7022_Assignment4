@@ -1,0 +1,110 @@
+{
+  "step": 1000000,
+  "summary": {
+    "mean_return": 17.7,
+    "episode_std": 43.274035000946675,
+    "n_episodes": 20
+  },
+  "episodes": [
+    {
+      "eval_seed": 20000,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20001,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20002,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20003,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20004,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20005,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20006,
+      "return": 115.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20007,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20008,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20009,
+      "return": 125.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20010,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20011,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20012,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20013,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20014,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20015,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20016,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20017,
+      "return": 114.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20018,
+      "return": 0.0,
+      "length": 280
+    },
+    {
+      "eval_seed": 20019,
+      "return": 0.0,
+      "length": 280
+    }
+  ]
+}

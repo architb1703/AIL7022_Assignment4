@@ -1,0 +1,5 @@
+category,count,fraction
+goal_blocking,0,0.0
+deadlock,2,0.6666666666666666
+livelock,1,0.3333333333333333
+timeout,0,0.0

@@ -1,0 +1,13 @@
+{
+  "name": "qmix_non_gru_shaped_seed0",
+  "seed": 0,
+  "reward_mode": "shaped",
+  "origin_results_dir": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/experiments/q1_archive_20261110_3ct9s4up/experiments/full_20261109_233030/results/qmix_shaped_seed0",
+  "origin_checkpoint_dir": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/experiments/q1_archive_20261110_3ct9s4up/experiments/full_20261109_233030/checkpoints/qmix_shaped_seed0",
+  "results_dir": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/Q1/results/qmix_non_gru_shaped_seed0",
+  "checkpoint_dir": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/Q1/checkpoints/qmix_non_gru_shaped_seed0",
+  "historical_run_name": "qmix_shaped_seed0",
+  "archived_results_reused": true,
+  "config_files_preserved": true,
+  "note": "Directory alias distinguishes feed-forward QMIX from GRU QMIX. Original config paths and labels are preserved for provenance. No new training was performed."
+}

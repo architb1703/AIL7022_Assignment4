@@ -1,0 +1,47 @@
+{
+  "algorithm": "cql_awr",
+  "dataset": "kitchen",
+  "critic_fraction": 0.5,
+  "seed": 0,
+  "data_dir": "data",
+  "results_dir": "results/decoupled",
+  "checkpoint_dir": "checkpoints/decoupled",
+  "policy_fractions": [
+    0.1,
+    0.5,
+    1.0
+  ],
+  "total_steps": 1000000,
+  "critic_steps": 50000,
+  "eval_every": 100000,
+  "batch_size": 128,
+  "hidden_dims": [
+    128,
+    128
+  ],
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "target_update_rate": 0.005,
+  "expectile": 0.7,
+  "temperature": 0.5,
+  "max_weight": 100.0,
+  "bc_alpha": 2.5,
+  "policy_noise": 0.2,
+  "noise_clip": 0.5,
+  "policy_delay": 2,
+  "conservative_weight": 5.0,
+  "n_action_samples": 10,
+  "entropy_temperature": 0.2,
+  "soft_q_backup": false,
+  "profile": "kitchen_v2",
+  "normalize_observations": true,
+  "actor_dropout": 0.1,
+  "versions": {
+    "torch": "2.7.0",
+    "numpy": "2.2.5",
+    "gymnasium": "1.2.3",
+    "gymnasium-robotics": "1.4.2",
+    "mujoco": "3.2.7",
+    "minari": "0.5.3"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "best_policy": "iql_shaped_seed0",
+  "selection": "Final-checkpoint validation success, then makespan, sum of costs and collisions",
+  "coordination_checkpoint": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/experiments/q1_submission_20261110_nhqi_ag6/checkpoints/iql_shaped_seed0/final.pt",
+  "coordination_seed": 20000,
+  "coordination_events": [
+    {
+      "step": 5,
+      "agent": 4,
+      "other_agent": 3,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 6,
+      "agent": 0,
+      "other_agent": 2,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 6,
+      "agent": 4,
+      "other_agent": 3,
+      "event": "following"
+    },
+    {
+      "step": 7,
+      "agent": 1,
+      "other_agent": 0,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 7,
+      "agent": 1,
+      "other_agent": 2,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 8,
+      "agent": 1,
+      "other_agent": 0,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 8,
+      "agent": 1,
+      "other_agent": 2,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 9,
+      "agent": 4,
+      "other_agent": 0,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 9,
+      "agent": 4,
+      "other_agent": 2,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 10,
+      "agent": 4,
+      "other_agent": 0,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 10,
+      "agent": 4,
+      "other_agent": 2,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 11,
+      "agent": 4,
+      "other_agent": 0,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 11,
+      "agent": 4,
+      "other_agent": 1,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 11,
+      "agent": 4,
+      "other_agent": 2,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 12,
+      "agent": 4,
+      "other_agent": 0,
+      "event": "waiting_near_moving_agent"
+    },
+    {
+      "step": 12,
+      "agent": 4,
+      "other_agent": 1,
+      "event": "waiting_near_moving_agent"
+    }
+  ],
+  "failure_checkpoint": "/Users/archit/Local/Courses/Intro_to_RL/Assignment_4/experiments/q1_submission_20261110_nhqi_ag6/checkpoints/iql_shaped_seed0/step_0250000.pt",
+  "failure_slip_prob": 0.1,
+  "failure_seeds": [
+    30000,
+    30001,
+    30002
+  ],
+  "failure_table_scope": "Fractions among the three saved failure examples; not population failure rates."
+}

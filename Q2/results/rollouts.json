@@ -1,0 +1,32 @@
+[
+  {
+    "training_seed": 0,
+    "eval_seed": 30000,
+    "return": 3584.1369839203753,
+    "length": 1000
+  },
+  {
+    "training_seed": 1,
+    "eval_seed": 30001,
+    "return": 3585.547245898431,
+    "length": 1000
+  },
+  {
+    "training_seed": 2,
+    "eval_seed": 30002,
+    "return": 3543.439223940104,
+    "length": 1000
+  },
+  {
+    "training_seed": 3,
+    "eval_seed": 30003,
+    "return": 3606.1476494123876,
+    "length": 1000
+  },
+  {
+    "training_seed": 4,
+    "eval_seed": 30004,
+    "return": 3593.3674692818095,
+    "length": 1000
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "iql_shaped_seed0",
+  "checkpoint": "Q1/checkpoints/iql_shaped_seed0/final.pt",
+  "validation": {
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 23.0,
+    "makespan_all": 23.0,
+    "sum_costs": 88.82,
+    "collisions": 0.14,
+    "normalized_makespan_all": 1.4375
+  },
+  "selection_uses_reporting_seeds": false
+}

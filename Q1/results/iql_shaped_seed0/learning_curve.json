@@ -1,0 +1,202 @@
+[
+  {
+    "step": 50000,
+    "n_episodes": 50,
+    "success_rate": 0.0,
+    "makespan_success": null,
+    "makespan_all": 80.0,
+    "sum_costs": 394.48,
+    "collisions": 25.48,
+    "normalized_makespan_all": 5.0
+  },
+  {
+    "step": 100000,
+    "n_episodes": 50,
+    "success_rate": 0.0,
+    "makespan_success": null,
+    "makespan_all": 80.0,
+    "sum_costs": 400.0,
+    "collisions": 9.22,
+    "normalized_makespan_all": 5.0
+  },
+  {
+    "step": 150000,
+    "n_episodes": 50,
+    "success_rate": 0.0,
+    "makespan_success": null,
+    "makespan_all": 80.0,
+    "sum_costs": 333.28,
+    "collisions": 26.08,
+    "normalized_makespan_all": 5.0
+  },
+  {
+    "step": 200000,
+    "n_episodes": 50,
+    "success_rate": 0.0,
+    "makespan_success": null,
+    "makespan_all": 80.0,
+    "sum_costs": 333.02,
+    "collisions": 4.62,
+    "normalized_makespan_all": 5.0
+  },
+  {
+    "step": 250000,
+    "n_episodes": 50,
+    "success_rate": 0.4,
+    "makespan_success": 63.75,
+    "makespan_all": 73.5,
+    "sum_costs": 250.34,
+    "collisions": 15.36,
+    "normalized_makespan_all": 4.59375
+  },
+  {
+    "step": 300000,
+    "n_episodes": 50,
+    "success_rate": 0.6,
+    "makespan_success": 54.86666666666667,
+    "makespan_all": 64.92,
+    "sum_costs": 275.98,
+    "collisions": 5.36,
+    "normalized_makespan_all": 4.0575
+  },
+  {
+    "step": 350000,
+    "n_episodes": 50,
+    "success_rate": 0.86,
+    "makespan_success": 29.162790697674417,
+    "makespan_all": 36.28,
+    "sum_costs": 133.72,
+    "collisions": 1.48,
+    "normalized_makespan_all": 2.2675
+  },
+  {
+    "step": 400000,
+    "n_episodes": 50,
+    "success_rate": 0.74,
+    "makespan_success": 44.16216216216216,
+    "makespan_all": 53.48,
+    "sum_costs": 193.1,
+    "collisions": 3.28,
+    "normalized_makespan_all": 3.3425
+  },
+  {
+    "step": 450000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 25.68,
+    "makespan_all": 25.68,
+    "sum_costs": 98.84,
+    "collisions": 0.28,
+    "normalized_makespan_all": 1.605
+  },
+  {
+    "step": 500000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 26.14,
+    "makespan_all": 26.14,
+    "sum_costs": 101.12,
+    "collisions": 0.36,
+    "normalized_makespan_all": 1.63375
+  },
+  {
+    "step": 550000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 29.08,
+    "makespan_all": 29.08,
+    "sum_costs": 110.8,
+    "collisions": 0.58,
+    "normalized_makespan_all": 1.8175
+  },
+  {
+    "step": 600000,
+    "n_episodes": 50,
+    "success_rate": 0.36,
+    "makespan_success": 32.888888888888886,
+    "makespan_all": 63.04,
+    "sum_costs": 196.04,
+    "collisions": 0.06,
+    "normalized_makespan_all": 3.94
+  },
+  {
+    "step": 650000,
+    "n_episodes": 50,
+    "success_rate": 0.98,
+    "makespan_success": 40.95918367346939,
+    "makespan_all": 41.74,
+    "sum_costs": 159.0,
+    "collisions": 1.3,
+    "normalized_makespan_all": 2.60875
+  },
+  {
+    "step": 700000,
+    "n_episodes": 50,
+    "success_rate": 0.96,
+    "makespan_success": 25.583333333333332,
+    "makespan_all": 27.76,
+    "sum_costs": 103.88,
+    "collisions": 1.34,
+    "normalized_makespan_all": 1.735
+  },
+  {
+    "step": 750000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 35.68,
+    "makespan_all": 35.68,
+    "sum_costs": 136.08,
+    "collisions": 0.28,
+    "normalized_makespan_all": 2.23
+  },
+  {
+    "step": 800000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 26.82,
+    "makespan_all": 26.82,
+    "sum_costs": 98.44,
+    "collisions": 0.34,
+    "normalized_makespan_all": 1.67625
+  },
+  {
+    "step": 850000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 29.6,
+    "makespan_all": 29.6,
+    "sum_costs": 106.32,
+    "collisions": 0.38,
+    "normalized_makespan_all": 1.85
+  },
+  {
+    "step": 900000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 24.3,
+    "makespan_all": 24.3,
+    "sum_costs": 91.9,
+    "collisions": 0.3,
+    "normalized_makespan_all": 1.51875
+  },
+  {
+    "step": 950000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 29.3,
+    "makespan_all": 29.3,
+    "sum_costs": 112.7,
+    "collisions": 0.96,
+    "normalized_makespan_all": 1.83125
+  },
+  {
+    "step": 1000000,
+    "n_episodes": 50,
+    "success_rate": 1.0,
+    "makespan_success": 24.38,
+    "makespan_all": 24.38,
+    "sum_costs": 91.0,
+    "collisions": 0.2,
+    "normalized_makespan_all": 1.52375
+  }
+]

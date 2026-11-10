@@ -1,0 +1,40 @@
+step=50000 epsilon=0.905 success=0.000 makespan=80.00
+step=100000 epsilon=0.810 success=0.000 makespan=80.00
+step=150000 epsilon=0.715 success=0.000 makespan=80.00
+step=200000 epsilon=0.620 success=0.000 makespan=80.00
+step=250000 epsilon=0.525 success=0.000 makespan=80.00
+step=300000 epsilon=0.430 success=0.000 makespan=80.00
+step=350000 epsilon=0.335 success=0.000 makespan=80.00
+step=400000 epsilon=0.240 success=0.000 makespan=80.00
+step=450000 epsilon=0.145 success=0.000 makespan=80.00
+step=500000 epsilon=0.050 success=0.000 makespan=80.00
+step=550000 epsilon=0.050 success=0.000 makespan=80.00
+step=600000 epsilon=0.050 success=1.000 makespan=34.28
+step=650000 epsilon=0.050 success=1.000 makespan=39.56
+step=700000 epsilon=0.050 success=0.980 makespan=34.58
+step=750000 epsilon=0.050 success=1.000 makespan=29.86
+step=800000 epsilon=0.050 success=1.000 makespan=28.44
+step=850000 epsilon=0.050 success=1.000 makespan=29.74
+step=900000 epsilon=0.050 success=1.000 makespan=27.64
+step=950000 epsilon=0.050 success=1.000 makespan=28.94
+step=1000000 epsilon=0.050 success=1.000 makespan=31.60
+Validation evaluation:
+{
+  "n_episodes": 50,
+  "success_rate": 1.0,
+  "makespan_success": 31.76,
+  "makespan_all": 31.76,
+  "sum_costs": 100.36,
+  "collisions": 0.46,
+  "normalized_makespan_all": 1.985
+}
+Final evaluation:
+{
+  "n_episodes": 100,
+  "success_rate": 1.0,
+  "makespan_success": 31.5,
+  "makespan_all": 31.5,
+  "sum_costs": 98.65,
+  "collisions": 0.36,
+  "normalized_makespan_all": 1.96875
+}

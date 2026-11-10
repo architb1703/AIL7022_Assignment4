@@ -1,0 +1,35 @@
+{
+  "dataset": "D4RL/kitchen/complete-v2",
+  "transitions": 4209,
+  "episodes": 19,
+  "shapes": {
+    "obs": [
+      4209,
+      59
+    ],
+    "actions": [
+      4209,
+      9
+    ],
+    "rewards": [
+      4209
+    ],
+    "next_obs": [
+      4209,
+      59
+    ],
+    "terminals": [
+      4209
+    ]
+  },
+  "terminations": 0,
+  "truncations": 19,
+  "observation_encoding": "observation field",
+  "observation_normalization": false,
+  "reward_scale": 1.0,
+  "critic_transitions": 420,
+  "subset_manifest": "results/decoupled/manifests/kitchen_seed0.npz",
+  "critic_normalization": true,
+  "critic_indices_sha256": "16587adbe7aa7d64c67a8c79b966f95481abb126b95e41c157e5ae06509042aa",
+  "subset_rule": "nested random transitions; separate critic/policy permutations"
+}

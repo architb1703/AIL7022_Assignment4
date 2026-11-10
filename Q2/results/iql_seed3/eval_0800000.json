@@ -1,0 +1,60 @@
+{
+  "step": 800000,
+  "summary": {
+    "mean_return": 3344.6166686612,
+    "episode_std": 658.1628038438512,
+    "n_episodes": 10
+  },
+  "episodes": [
+    {
+      "eval_seed": 10000,
+      "return": 3610.9025465760874,
+      "length": 1000
+    },
+    {
+      "eval_seed": 10001,
+      "return": 3595.2302289561885,
+      "length": 1000
+    },
+    {
+      "eval_seed": 10002,
+      "return": 2625.077161713038,
+      "length": 655
+    },
+    {
+      "eval_seed": 10003,
+      "return": 3656.9047421823047,
+      "length": 1000
+    },
+    {
+      "eval_seed": 10004,
+      "return": 3633.8164285044113,
+      "length": 1000
+    },
+    {
+      "eval_seed": 10005,
+      "return": 3635.305419300989,
+      "length": 1000
+    },
+    {
+      "eval_seed": 10006,
+      "return": 3682.6674316286303,
+      "length": 1000
+    },
+    {
+      "eval_seed": 10007,
+      "return": 3664.2305003829515,
+      "length": 1000
+    },
+    {
+      "eval_seed": 10008,
+      "return": 1707.277291952306,
+      "length": 454
+    },
+    {
+      "eval_seed": 10009,
+      "return": 3634.754935415094,
+      "length": 1000
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "step": 1000000,
+  "summary": {
+    "mean_return": 3240.758752704952,
+    "episode_std": 688.3471028338068,
+    "n_episodes": 20
+  },
+  "episodes": [
+    {
+      "eval_seed": 20000,
+      "return": 3564.3202782618964,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20001,
+      "return": 3579.3042819963916,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20002,
+      "return": 3558.8875565606,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20003,
+      "return": 3566.199556144437,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20004,
+      "return": 1724.6733746853724,
+      "length": 467
+    },
+    {
+      "eval_seed": 20005,
+      "return": 2311.137860317349,
+      "length": 628
+    },
+    {
+      "eval_seed": 20006,
+      "return": 3532.200394730902,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20007,
+      "return": 3583.395719700335,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20008,
+      "return": 3581.310559948309,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20009,
+      "return": 3568.669077764409,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20010,
+      "return": 3556.043601299757,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20011,
+      "return": 3578.060367725709,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20012,
+      "return": 1615.7040070583382,
+      "length": 445
+    },
+    {
+      "eval_seed": 20013,
+      "return": 3575.9792197703264,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20014,
+      "return": 3574.673083514601,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20015,
+      "return": 2034.5946298991557,
+      "length": 530
+    },
+    {
+      "eval_seed": 20016,
+      "return": 3579.4501899183265,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20017,
+      "return": 3572.396801549787,
+      "length": 1000
+    },
+    {
+      "eval_seed": 20018,
+      "return": 3604.874299165178,
+      "length": 977
+    },
+    {
+      "eval_seed": 20019,
+      "return": 3553.300194087857,
+      "length": 1000
+    }
+  ]
+}
